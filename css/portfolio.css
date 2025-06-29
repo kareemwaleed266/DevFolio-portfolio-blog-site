@@ -1,0 +1,17 @@
+:root {
+  --main-c: rgba(0, 120, 255, 1);
+  --bg-main-c: rgb(245, 245, 245);
+}
+
+.bottom-customize {
+  bottom: -10% !important;
+}
+.carousel-indicators [data-bs-target] {
+  text-indent: 0;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+}
+.carousel-indicators [data-bs-target] i {
+  color: var(--main-c);
+}

@@ -1,0 +1,31 @@
+:root {
+  --main-c: rgba(0, 120, 255, 1);
+  --bg-main-c: rgb(245, 245, 245);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: white;
+}
+
+.fs-56 {
+  font-size: 56px;
+}
+
+.border-main {
+  padding-left: 15px;
+  border-left: 4px solid var(--main-c);
+}
+
+li .before-style-dash {
+  position: relative;
+}
+li .before-style-dash::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1.5px;
+  background-color: var(--main-c);
+  left: -5px;
+  bottom: 40%;
+  transform: translate(-50%);
+}
